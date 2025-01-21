@@ -1,6 +1,3 @@
-@media screen and (max-width: 992px) {
-
-}
 @media screen and (max-width: 768px) {
     .navbar{
         border-bottom: .1rem solid #FEA301;
@@ -60,8 +57,10 @@
     .inner_stories_card button{
         font-size: 1rem;
     }
-    .inner_stories_card{
-        
+    .stories_card > button{
+        position: absolute;
+        top: 64%;
+        left: 3rem;
     }
     .footer_contents{
         display: grid;
@@ -85,5 +84,7 @@
     }
 }
 @media screen and (max-width: 576px) {
-
+    .stories_card > button{
+        top: 53%;
+    }
 }

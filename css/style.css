@@ -309,17 +309,21 @@ border: .2rem solid var(--orange);
     -moz-border-radius: 1.6rem;
     -ms-border-radius: 1.6rem;
     -o-border-radius: 1.6rem;
+    position: relative;
 }
 .stories_card > img{
     border-top-left-radius: 1.6rem;
     border-top-right-radius: 1.6rem;
 }
 .stories_card > button{
-    margin-top: -10rem;
-    margin-left: 3rem;
+    position: absolute;
+    top: 53%;
+    left: 3rem;
 }
-.stories_btn1{
+.stories_card > .stories_btn1{
+    top: 58%;
     background: var(--sky-color);
+    
 }
 .stories_btn2 , .stories_btn4 , .stories_btn5{
     background: rgba(149, 178, 38, 1);
